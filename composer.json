@@ -1,0 +1,25 @@
+{
+    "name": "sellastica/phone-number",
+	"type": "project",
+    "description": "Phone number validator",
+	"homepage": "https://github.com/sellastica/phone-number",
+    "keywords": ["phone number", "validator"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Tomáš Krejčí",
+            "email": "tomas@differencemakers.cz"
+        }
+    ],
+    "require": {
+		"php": ">=7.1",
+		"giggsey/libphonenumber-for-php": "^8.8.5"
+    },
+	"require-dev": {
+    },
+	"autoload": {
+        "psr-4": {
+            "Sellastica\\CompanyId\\": "src/"
+        }
+    }
+}
