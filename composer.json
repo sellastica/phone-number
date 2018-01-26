@@ -1,14 +1,11 @@
 {
     "name": "sellastica/phone-number",
-	"type": "project",
-    "description": "Phone number validator",
 	"homepage": "https://github.com/sellastica/phone-number",
-    "keywords": ["phone number", "validator"],
     "license": "proprietary",
     "authors": [
         {
             "name": "Tomáš Krejčí",
-            "email": "tomas@differencemakers.cz"
+			"homepage": "http://www.sellastica.com"
         }
     ],
     "require": {
@@ -19,7 +16,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "Sellastica\\CompanyId\\": "src/"
+            "Sellastica\\PhoneNumber\\": "src/"
         }
     }
 }
